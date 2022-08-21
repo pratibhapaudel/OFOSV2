@@ -1,0 +1,18 @@
+<!-- <app-header *ngIf="!headertwo"></app-header> -->
+<app-header-two></app-header-two>
+
+<div *ngIf="showLoadingIndicator" class="lds-roller">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+
+<router-outlet></router-outlet>
+
+<app-footer></app-footer>
+<app-chat-box></app-chat-box>
